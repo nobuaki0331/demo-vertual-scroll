@@ -4,6 +4,7 @@
       :style="scroller"
       :items="tableList"
       :item-size="25"
+      list-class="tbody"
       key-field="id"
     >
       <template #before>
